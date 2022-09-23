@@ -1,126 +1,40 @@
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-    margin: ;
-    padding: ;
-    border: ;
-    font-size: 100%;
-    font: inherit;
-    vertical-align: baseline;
-}
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-    display: block;
-}
 body {
-    line-height: 1;
+  background: #7dbfeb;
+  font-family: sans-serif;
 }
-ol, ul {
-    list-style: none;
+
+h2 {
+  color: #fff;
 }
-blockquote, q {
-    quotes: none;
+
+.login {
+  padding: 1em;
+  margin: 2em auto;
+  width: 17em;
+  background: #fff;
+  border-radius: 3px;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
-    content: '';
-    content: none;
+
+label {
+  font-size: 10pt;
+  color: #555;
 }
-table {
-    border-collapse: collapse;
-    border-spacing: ;
+
+input[type="text"],
+input[type="email"],
+input[type="Password"],
+textarea {
+  padding: 8px;
+  width: 95%;
+  background: #efefef;
+  border: 0;
+  font-size: 10pt;
+  margin: 6px 0px;
 }
- 
-/* Style */
- 
-body {
-    font-family: sans-serif;
-    background-color: #E6E6FA;
-    color: #000111;
-}
-.container {
-    width: 900px;
-    margin: auto;
-}
-.header {
-    font-family: serif;
-    background-color: slategray;
-    padding: 40px 20px;
-    color: white;
-    text-align: center;
-}
-.header .judul {
-    font-size: 40px;
-    font-weight: bold;
-    margin-bottom: 10px;
-}
-.header .tagline {
-    font-size: 15px;
-    color: lightcyan;
-}
-.menu {
-    background-color: darkslategray;
-}
-.menu ul li {
-    display: inline-block;
-    font-size: 15px;
-    padding: 10px 0px 10px 20px;
-}
-.menu a {
-    text-decoration: none;
-    color: ghostwhite;
-}
-.content {
-    background-color: white;
-}
-.content h2 {
-    font: bold 22px sans-serif;
-    margin-bottom: 10px;
-}
-.content a {
-    text-decoration: none;
-    color: darkred;
-}
-.sidebar {
-    width: 250px;
-    float: left;
-    padding: 20px 15px 10px 20px;
-}
-.sidebar ul {
-    margin-bottom: 20px;
-}
-.sidebar li {
-    margin-bottom: 8px;
-}
-.article {
-    width: 580px;
-    float: left;
-    padding: 20px 20px 10px 15px;
-}
-.article .author {
-    font-size: 12px;
-}
-.article p {
-    font: normal 15px/20px 'times new roman', serif;
-    padding-bottom: 10px;
-}
-.clear {
-    clear: both;
-}
-.footer {
-    background-color: teal;
-    padding: 10px 0px;
-    color: white;
-    text-align: center;
+
+.tombol {
+  background: #3498db;
+  color: #fff;
+  border: 0;
+  padding: 5px 8px;
 }
